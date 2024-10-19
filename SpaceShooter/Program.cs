@@ -38,9 +38,6 @@ namespace SpaceShooter
 
             Console.SetCursorPosition(shipPosX, shipPosY + 2);
             Console.Write("/_|_\\");
-
-            Console.SetCursorPosition(shipPosX, shipPosY + 3);
-            Console.Write("  |  ");
         }
 
         static void ReadInput()
