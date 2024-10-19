@@ -49,11 +49,11 @@ namespace SpaceShooter
             {
                 var key = Console.ReadKey(true).Key;
 
-                if (key == ConsoleKey.LeftArrow && shipPosX > 0)
+                if (key == ConsoleKey.N && shipPosX > 0)
                 {
                     shipPosX--;
                 }
-                else if (key == ConsoleKey.RightArrow && shipPosX < Console.WindowWidth - 1)
+                else if (key == ConsoleKey.M && shipPosX < Console.WindowWidth - 1)
                 {
                     shipPosX++;
                 }
